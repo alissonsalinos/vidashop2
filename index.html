@@ -25,6 +25,15 @@
     
 
     <title>Conheça as funcionalidades do app Vidalink </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8BW6F9360"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8BW6F9360');
+</script>
     <script language="javascript" src="serverDate.js"></script>
     <!-- Reset Browser Styles -->
     <style type="text/css" rel="stylesheet">
@@ -3149,7 +3158,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="rd-text-kcp38lr8" class="bricks--component bricks--component-text rd-text">
-  <h6 style="text-align: center;"><span style="color: rgb(255, 255, 255);">© 2000-<script>document.write(date.getFullYear());</script>. Todos os direitos reservados.</span></h6>
+  <h6 style="text-align: center;"><span style="color: rgb(255, 255, 255);">© 2000-<script>
+    var d = new Date();
+    if(date !== undefined){ document.write(date.getFullYear());}
+    else{document.write(d.getFullYear());}</script>. Todos os direitos reservados.</span></h6>
 </div>
 
   </div>
